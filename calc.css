@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  width: 100%;
+  max-width: 285px;
+  height: 400px;
+  padding: 12px;
+  background-color: #edf7c2;
+  border: 1px solid black;
+  border-radius: 4px 4px 10px 10px;
+  margin: auto 50px;
+}
+
+tr>td{
+  padding: 3px;
+}
+
+td button{
+  padding: 7px;
+  font-family: Verdana;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px black;
+}
+
+input {
+  height: 1.5em;
+}
+
+#table1{
+  float:left;
+  margin: 5px 5px 0 0;
+  background-color: cyan;
+  border: 1px solid teal;
+}
+
+#table2 {
+  background-color: #eafffe;
+  position: absolute;
+  max-width: 300px;
+  margin-left: 121px;
+  margin-top: 5px;
+  border: 1px solid blue;
+}
+
+.enlarge{
+  padding: 3px 50px 3px 50px;
+}

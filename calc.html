@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="calc.css" />
+  <script src="calc.js" async></script>
+  <script src="array-conditionals.js" async></script>
+  <title>Js Calculator</title>
+</head>
+<body><input id="result" type="text" size="36" disabled/><br />
+<div id="table1">
+  <table>
+    <tr>
+      <td>
+        <button id="x">1</button>
+      </td>
+      <td>
+        <button id="y">2</button>
+      </td>
+      <td>
+        <button id="z">3</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button>4</button>
+      </td>
+      <td>
+        <button>5</button>
+      </td>
+      <td>
+        <button>6</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button>7</button>
+      </td>
+      <td>
+        <button>8</button>
+      </td>
+      <td>
+        <button>9</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button>0</button>
+      </td>
+      <td>
+        <button>.</button>
+      </td>
+        <td>
+        <button onclick="erase();">C</button>
+        </td>
+    </tr>
+  </table>
+</div>
+<div id="table2">
+  <table>
+    <tr>
+      <td>
+        <button id="add">+</button>
+      </td>
+      <td>
+        <button id="sub">-</button>
+      </td>
+      <td>
+        <button id="mul">x</button>
+      </td>
+      <td>
+        <button id="divd">/</button>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <button class="enlarge" onclick="equals();">=</button>
+      </td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
